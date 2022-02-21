@@ -7,3 +7,12 @@ C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.Properties.Resourc
 C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.csproj.GenerateResource.Cache
 C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.exe
 C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.pdb
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\bin\Debug\SQL_Server_01.exe.config
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.exe
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.pdb
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\bin\Debug\SQL_Server_01.exe
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\bin\Debug\SQL_Server_01.pdb
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.csprojResolveAssemblyReference.cache
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.Form1.resources
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.Properties.Resources.resources
+Z:\15_NguyenTrongNgoc\c-vs-Sql-Server\obj\Debug\SQL_Server_01.csproj.GenerateResource.Cache

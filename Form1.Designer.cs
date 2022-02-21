@@ -43,6 +43,8 @@ namespace SQL_Server_01
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnAccess = new System.Windows.Forms.Button();
+            this.btnConfig = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -95,7 +97,7 @@ namespace SQL_Server_01
             // 
             this.txtserver.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtserver.Location = new System.Drawing.Point(200, 53);
-            this.txtserver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtserver.Margin = new System.Windows.Forms.Padding(2);
             this.txtserver.Name = "txtserver";
             this.txtserver.Size = new System.Drawing.Size(386, 32);
             this.txtserver.TabIndex = 5;
@@ -104,7 +106,7 @@ namespace SQL_Server_01
             // 
             this.txtuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtuser.Location = new System.Drawing.Point(200, 211);
-            this.txtuser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtuser.Margin = new System.Windows.Forms.Padding(2);
             this.txtuser.Name = "txtuser";
             this.txtuser.Size = new System.Drawing.Size(386, 32);
             this.txtuser.TabIndex = 6;
@@ -114,7 +116,7 @@ namespace SQL_Server_01
             // 
             this.txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpass.Location = new System.Drawing.Point(200, 254);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(2);
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(386, 32);
             this.txtpass.TabIndex = 7;
@@ -123,7 +125,7 @@ namespace SQL_Server_01
             // 
             this.txtdatabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdatabase.Location = new System.Drawing.Point(200, 96);
-            this.txtdatabase.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtdatabase.Margin = new System.Windows.Forms.Padding(2);
             this.txtdatabase.Name = "txtdatabase";
             this.txtdatabase.Size = new System.Drawing.Size(386, 32);
             this.txtdatabase.TabIndex = 8;
@@ -134,7 +136,7 @@ namespace SQL_Server_01
             this.rdsql.Checked = true;
             this.rdsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdsql.Location = new System.Drawing.Point(208, 169);
-            this.rdsql.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdsql.Margin = new System.Windows.Forms.Padding(2);
             this.rdsql.Name = "rdsql";
             this.rdsql.Size = new System.Drawing.Size(204, 24);
             this.rdsql.TabIndex = 9;
@@ -148,7 +150,7 @@ namespace SQL_Server_01
             this.rdwin.AutoSize = true;
             this.rdwin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdwin.Location = new System.Drawing.Point(208, 141);
-            this.rdwin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdwin.Margin = new System.Windows.Forms.Padding(2);
             this.rdwin.Name = "rdwin";
             this.rdwin.Size = new System.Drawing.Size(240, 24);
             this.rdwin.TabIndex = 10;
@@ -159,10 +161,10 @@ namespace SQL_Server_01
             // btnConnect
             // 
             this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConnect.Location = new System.Drawing.Point(200, 312);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnConnect.Location = new System.Drawing.Point(168, 312);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(150, 32);
+            this.btnConnect.Size = new System.Drawing.Size(110, 43);
             this.btnConnect.TabIndex = 11;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -171,10 +173,10 @@ namespace SQL_Server_01
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(369, 312);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(454, 312);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(150, 32);
+            this.button2.Size = new System.Drawing.Size(110, 43);
             this.button2.TabIndex = 12;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -202,12 +204,38 @@ namespace SQL_Server_01
             this.label6.TabIndex = 13;
             this.label6.Text = "Tên Máy Chủ";
             // 
+            // btnAccess
+            // 
+            this.btnAccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAccess.Location = new System.Drawing.Point(25, 312);
+            this.btnAccess.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAccess.Name = "btnAccess";
+            this.btnAccess.Size = new System.Drawing.Size(110, 43);
+            this.btnAccess.TabIndex = 14;
+            this.btnAccess.Text = "Access";
+            this.btnAccess.UseVisualStyleBackColor = true;
+            this.btnAccess.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnConfig
+            // 
+            this.btnConfig.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfig.Location = new System.Drawing.Point(311, 312);
+            this.btnConfig.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConfig.Name = "btnConfig";
+            this.btnConfig.Size = new System.Drawing.Size(110, 43);
+            this.btnConfig.TabIndex = 15;
+            this.btnConfig.Text = "Config";
+            this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
             this.ControlBox = false;
+            this.Controls.Add(this.btnConfig);
+            this.Controls.Add(this.btnAccess);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnConnect);
@@ -222,7 +250,8 @@ namespace SQL_Server_01
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
@@ -248,6 +277,8 @@ namespace SQL_Server_01
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnAccess;
+        private System.Windows.Forms.Button btnConfig;
     }
 }
 

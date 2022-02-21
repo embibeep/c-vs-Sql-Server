@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Data.OleDb;
+using System.Configuration;
 
 namespace SQL_Server_01
 {
@@ -32,7 +34,7 @@ namespace SQL_Server_01
         {
             String connectionstring;
             SqlConnection cnn;
-            connectionstring = "Server=P0942;Database=HOADON;Uid=SA;PWD=123456";
+            connectionstring = "Server=P0942;Database=HOADON;Uid=admin;PWD=123456789";
             cnn = new SqlConnection(connectionstring);
             {
                 try
@@ -53,12 +55,12 @@ namespace SQL_Server_01
                         cnn.ConnectionString = connectionstring;
                     }
                     cnn.Open();
-                    MessageBox.Show("ket noi thanh cong");
+                    MessageBox.Show("Kết nối thành công");
                     cnn.Close();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("loi ket noi\n" + ex.Message);
+                    MessageBox.Show("Lỗi kết nối\n" + ex.Message);
                 }
             }
         }
@@ -79,5 +81,37 @@ namespace SQL_Server_01
             txtuser.Enabled = true;
             txtpass.Enabled = true;
         }
-    }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OleDbConnection odc;
+            String url="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\PM\\Downloads\\c-vs-Sql-Server\\bin\\Debug\\Database.accdb";
+            odc = new OleDbConnection(url);
+            try
+            {
+                odc.Open();
+                MessageBox.Show("Kết nối thành công!");
+                odc.Close();
+            }
+            catch (Exception exx)
+            {
+                MessageBox.Show("Lỗi kết nối! \n" + exx.Message);
+            }
+        }
+
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            string Conn = ConfigurationManager.ConnectionStrings["SqlServer"].ConnectionString;
+            SqlConnection cnt = new SqlConnection(Conn);
+            try
+            {
+                cnt.Open();
+                MessageBox.Show("Kết nối thành công");
+                cnt.Close();
+            } catch (Exception ex){
+                MessageBox.Show("Lỗi kết nối \n" + ex.Message);
+            }
+        }
+    }    
 }
+
