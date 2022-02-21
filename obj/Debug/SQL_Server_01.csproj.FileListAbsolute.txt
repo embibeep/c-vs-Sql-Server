@@ -1,0 +1,9 @@
+C:\Users\PM\Downloads\c-vs-Sql-Server\bin\Debug\SQL_Server_01.exe.config
+C:\Users\PM\Downloads\c-vs-Sql-Server\bin\Debug\SQL_Server_01.exe
+C:\Users\PM\Downloads\c-vs-Sql-Server\bin\Debug\SQL_Server_01.pdb
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.csprojResolveAssemblyReference.cache
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.Form1.resources
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.Properties.Resources.resources
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.csproj.GenerateResource.Cache
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.exe
+C:\Users\PM\Downloads\c-vs-Sql-Server\obj\Debug\SQL_Server_01.pdb
