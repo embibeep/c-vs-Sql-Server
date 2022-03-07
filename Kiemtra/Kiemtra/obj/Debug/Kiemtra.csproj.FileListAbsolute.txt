@@ -1,0 +1,9 @@
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\bin\Debug\Kiemtra.exe.config
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\bin\Debug\Kiemtra.exe
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\bin\Debug\Kiemtra.pdb
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csprojResolveAssemblyReference.cache
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.Form1.resources
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.Properties.Resources.resources
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csproj.GenerateResource.Cache
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.exe
+Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.pdb
