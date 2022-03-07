@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Kiemtra
+namespace form_khach_hang
 {
     static class Program
     {

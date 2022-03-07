@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Kiemtra")]
+[assembly: AssemblyTitle("form_khach_hang")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Kiemtra")]
+[assembly: AssemblyProduct("form_khach_hang")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a52a087-0c3a-4912-9366-bb928af42fa2")]
+[assembly: Guid("7d0bc4fc-2191-4d19-895c-1ba99ccacf50")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Kiemtra.Properties
+namespace form_khach_hang.Properties
 {
 
 
