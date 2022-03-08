@@ -1,0 +1,5 @@
+E:\nam3\sql\SQL_Server_01\form 2\form_khach_hang\form_khach_hang\obj\Debug\form_khach_hang.csproj.AssemblyReference.cache
+E:\nam3\sql\SQL_Server_01\form 2\form_khach_hang\form_khach_hang\obj\Debug\form_khach_hang.Form1.resources
+E:\nam3\sql\SQL_Server_01\form 2\form_khach_hang\form_khach_hang\obj\Debug\form_khach_hang.Properties.Resources.resources
+E:\nam3\sql\SQL_Server_01\form 2\form_khach_hang\form_khach_hang\obj\Debug\form_khach_hang.csproj.GenerateResource.cache
+E:\nam3\sql\SQL_Server_01\form 2\form_khach_hang\form_khach_hang\obj\Debug\form_khach_hang.csproj.CoreCompileInputs.cache
