@@ -44,15 +44,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnExcel = new System.Windows.Forms.Button();
+            this.btnSave_String = new System.Windows.Forms.Button();
+            this.btnRead_String = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnConfig
             // 
             this.btnConfig.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConfig.Location = new System.Drawing.Point(247, 315);
-            this.btnConfig.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConfig.Location = new System.Drawing.Point(329, 388);
+            this.btnConfig.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConfig.Name = "btnConfig";
-            this.btnConfig.Size = new System.Drawing.Size(110, 43);
+            this.btnConfig.Size = new System.Drawing.Size(147, 53);
             this.btnConfig.TabIndex = 7;
             this.btnConfig.Text = "Config";
             this.btnConfig.UseVisualStyleBackColor = true;
@@ -61,10 +63,10 @@
             // btnAccess
             // 
             this.btnAccess.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccess.Location = new System.Drawing.Point(17, 315);
-            this.btnAccess.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAccess.Location = new System.Drawing.Point(23, 388);
+            this.btnAccess.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAccess.Name = "btnAccess";
-            this.btnAccess.Size = new System.Drawing.Size(110, 43);
+            this.btnAccess.Size = new System.Drawing.Size(147, 53);
             this.btnAccess.TabIndex = 5;
             this.btnAccess.Text = "Access";
             this.btnAccess.UseVisualStyleBackColor = true;
@@ -74,20 +76,19 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 56);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(16, 69);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(152, 26);
+            this.label6.Size = new System.Drawing.Size(194, 32);
             this.label6.TabIndex = 27;
             this.label6.Text = "Tên Máy Chủ";
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(477, 315);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(636, 388);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 43);
+            this.button2.Size = new System.Drawing.Size(147, 53);
             this.button2.TabIndex = 9;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -96,10 +97,10 @@
             // btnConnect
             // 
             this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConnect.Location = new System.Drawing.Point(132, 315);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConnect.Location = new System.Drawing.Point(176, 388);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(110, 43);
+            this.btnConnect.Size = new System.Drawing.Size(147, 53);
             this.btnConnect.TabIndex = 6;
             this.btnConnect.Text = "Connect";
             this.btnConnect.UseVisualStyleBackColor = true;
@@ -109,10 +110,10 @@
             // 
             this.rdwin.AutoSize = true;
             this.rdwin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdwin.Location = new System.Drawing.Point(209, 138);
-            this.rdwin.Margin = new System.Windows.Forms.Padding(2);
+            this.rdwin.Location = new System.Drawing.Point(279, 170);
+            this.rdwin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdwin.Name = "rdwin";
-            this.rdwin.Size = new System.Drawing.Size(240, 24);
+            this.rdwin.Size = new System.Drawing.Size(292, 29);
             this.rdwin.TabIndex = 24;
             this.rdwin.Text = "Chứng thực bằng Windows\r\n";
             this.rdwin.UseVisualStyleBackColor = true;
@@ -123,10 +124,10 @@
             this.rdsql.AutoSize = true;
             this.rdsql.Checked = true;
             this.rdsql.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdsql.Location = new System.Drawing.Point(209, 166);
-            this.rdsql.Margin = new System.Windows.Forms.Padding(2);
+            this.rdsql.Location = new System.Drawing.Point(279, 204);
+            this.rdsql.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdsql.Name = "rdsql";
-            this.rdsql.Size = new System.Drawing.Size(204, 24);
+            this.rdsql.Size = new System.Drawing.Size(248, 29);
             this.rdsql.TabIndex = 23;
             this.rdsql.TabStop = true;
             this.rdsql.Text = "Chứng thực bằng SQL";
@@ -136,47 +137,46 @@
             // txtdatabase
             // 
             this.txtdatabase.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdatabase.Location = new System.Drawing.Point(201, 93);
-            this.txtdatabase.Margin = new System.Windows.Forms.Padding(2);
+            this.txtdatabase.Location = new System.Drawing.Point(268, 114);
+            this.txtdatabase.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtdatabase.Name = "txtdatabase";
-            this.txtdatabase.Size = new System.Drawing.Size(386, 32);
+            this.txtdatabase.Size = new System.Drawing.Size(513, 38);
             this.txtdatabase.TabIndex = 2;
             // 
             // txtpass
             // 
             this.txtpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpass.Location = new System.Drawing.Point(201, 251);
-            this.txtpass.Margin = new System.Windows.Forms.Padding(2);
+            this.txtpass.Location = new System.Drawing.Point(268, 309);
+            this.txtpass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtpass.Name = "txtpass";
-            this.txtpass.Size = new System.Drawing.Size(386, 32);
+            this.txtpass.Size = new System.Drawing.Size(513, 38);
             this.txtpass.TabIndex = 4;
             // 
             // txtuser
             // 
             this.txtuser.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.Location = new System.Drawing.Point(201, 208);
-            this.txtuser.Margin = new System.Windows.Forms.Padding(2);
+            this.txtuser.Location = new System.Drawing.Point(268, 256);
+            this.txtuser.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(386, 32);
+            this.txtuser.Size = new System.Drawing.Size(513, 38);
             this.txtuser.TabIndex = 3;
             // 
             // txtserver
             // 
             this.txtserver.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtserver.Location = new System.Drawing.Point(201, 50);
-            this.txtserver.Margin = new System.Windows.Forms.Padding(2);
+            this.txtserver.Location = new System.Drawing.Point(268, 62);
+            this.txtserver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtserver.Name = "txtserver";
-            this.txtserver.Size = new System.Drawing.Size(386, 32);
+            this.txtserver.Size = new System.Drawing.Size(513, 38);
             this.txtserver.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(17, 257);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(23, 316);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(113, 26);
+            this.label5.Size = new System.Drawing.Size(144, 32);
             this.label5.TabIndex = 18;
             this.label5.Text = "Mật Khẩu";
             // 
@@ -184,10 +184,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(17, 214);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(23, 263);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(119, 26);
+            this.label4.Size = new System.Drawing.Size(154, 32);
             this.label4.TabIndex = 17;
             this.label4.Text = "Tài Khoản";
             // 
@@ -195,10 +194,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 99);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(16, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 26);
+            this.label3.Size = new System.Drawing.Size(205, 32);
             this.label3.TabIndex = 16;
             this.label3.Text = "Tên Database";
             // 
@@ -209,9 +207,8 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(608, 40);
+            this.label1.Size = new System.Drawing.Size(811, 49);
             this.label1.TabIndex = 30;
             this.label1.Text = "KẾT NỐI CƠ SỞ DỮ LIỆU";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -219,21 +216,47 @@
             // btnExcel
             // 
             this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcel.Location = new System.Drawing.Point(362, 315);
-            this.btnExcel.Margin = new System.Windows.Forms.Padding(2);
+            this.btnExcel.Location = new System.Drawing.Point(483, 388);
+            this.btnExcel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(110, 43);
+            this.btnExcel.Size = new System.Drawing.Size(147, 53);
             this.btnExcel.TabIndex = 8;
             this.btnExcel.Text = "Excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
+            // btnSave_String
+            // 
+            this.btnSave_String.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave_String.Location = new System.Drawing.Point(23, 456);
+            this.btnSave_String.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSave_String.Name = "btnSave_String";
+            this.btnSave_String.Size = new System.Drawing.Size(147, 53);
+            this.btnSave_String.TabIndex = 10;
+            this.btnSave_String.Text = "Save";
+            this.btnSave_String.UseVisualStyleBackColor = true;
+            this.btnSave_String.Click += new System.EventHandler(this.btnSave_String_Click);
+            // 
+            // btnRead_String
+            // 
+            this.btnRead_String.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRead_String.Location = new System.Drawing.Point(176, 456);
+            this.btnRead_String.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRead_String.Name = "btnRead_String";
+            this.btnRead_String.Size = new System.Drawing.Size(147, 53);
+            this.btnRead_String.TabIndex = 11;
+            this.btnRead_String.Text = "Read";
+            this.btnRead_String.UseVisualStyleBackColor = true;
+            this.btnRead_String.Click += new System.EventHandler(this.btnRead_String_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 369);
+            this.ClientSize = new System.Drawing.Size(811, 532);
             this.ControlBox = false;
+            this.Controls.Add(this.btnRead_String);
+            this.Controls.Add(this.btnSave_String);
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnConfig);
@@ -251,6 +274,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -277,6 +301,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnSave_String;
+        private System.Windows.Forms.Button btnRead_String;
     }
 }
 

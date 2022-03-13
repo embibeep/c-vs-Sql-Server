@@ -7,3 +7,13 @@ Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.Properties.Resou
 Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csproj.GenerateResource.Cache
 Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.exe
 Z:\19CT113_15_NguyenTrongNgoc\Kiemtra\Kiemtra\obj\Debug\Kiemtra.pdb
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\bin\Debug\Kiemtra.exe.config
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\bin\Debug\Kiemtra.exe
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\bin\Debug\Kiemtra.pdb
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csproj.AssemblyReference.cache
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.Form1.resources
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.Properties.Resources.resources
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csproj.GenerateResource.cache
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.csproj.CoreCompileInputs.cache
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.exe
+E:\nam3\sql\SQL_Server_01\Kiemtra\Kiemtra\obj\Debug\Kiemtra.pdb

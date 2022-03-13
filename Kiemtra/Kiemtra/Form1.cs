@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Configuration;
+using System.IO;
 
 namespace Kiemtra
 {
@@ -35,7 +36,8 @@ namespace Kiemtra
         private void btnAccess_Click(object sender, EventArgs e)
         {
             OleDbConnection odc;
-            String url = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Z:\\19CT113_15_NguyenTrongNgoc\\Kiemtra\\Kiemtra\\bin\\Debug\\Database.accdb";
+            //đường dẫn url chỉ đúng khi sử dụng tại laptop chỉ định, nếu sử dụng trên thiết bị khác, hãy đôi đường dẫn file lại.
+            String url = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\nam3\\sql\\SQL_Server_01\\Kiemtra\\Kiemtra\\bin\\Debug\\Database.accdb";
             odc = new OleDbConnection(url);
             try
             {
@@ -51,6 +53,7 @@ namespace Kiemtra
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
+            //Mở Sql Server ra, tạo 1 database tên HOADON, và user ngoc,mật khẩu 06122001 để chạy thành công.
             String connectionstring;
             SqlConnection cnn;
             connectionstring = "Server=P0942;Database=HOADON;Uid=ngoc;PWD=06122001";
@@ -86,6 +89,7 @@ namespace Kiemtra
 
         private void btnConfig_Click(object sender, EventArgs e)
         {
+            //Mở Sql Server ra, tạo 1 database tên HOADON, và user ngoc,mật khẩu 06122001 để chạy thành công.
             string Conn = ConfigurationManager.ConnectionStrings["SqlServer_"].ConnectionString;
             SqlConnection cnt = new SqlConnection(Conn);
             try
@@ -102,7 +106,8 @@ namespace Kiemtra
 
         private void btnExcel_Click(object sender, EventArgs e)
         {
-            String filename = @"Z:\\19CT113_15_NguyenTrongNgoc\\Kiemtra\\Kiemtra\\bin\\Debug\\Database.xlsx";
+            //đường dẫn url chỉ đúng khi sử dụng tại laptop chỉ định, nếu sử dụng trên thiết bị khác, hãy đôi đường dẫn file lại.
+            String filename = @"E:\\nam3\\sql\\SQL_Server_01\\Kiemtra\\Kiemtra\\bin\\Debug\\Database.xlsx";
             String connection = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + filename + ";Extended Properties=\"Excel 12.0 Xml;HDR=YES;\"";
             String Command = "Select * from [sheets$]";
             OleDbConnection con = new OleDbConnection(connection);
@@ -121,6 +126,56 @@ namespace Kiemtra
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void write()
+        {
+            File.AppendAllLines("text.txt", new string[] { "\nServer = SqlServer... \n" + "database=HOADON \n" + "uid=ngoc \n"+"pwd=06122001 \n"}) ;
+        }
+        private void btnSave_String_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                write();
+                MessageBox.Show("Đã tạo file thành công!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Tạo file thất bại! \n "+ex.Message);
+            }
+        }
+
+        public string get_String()
+        {
+            string fileName = @"E:\\nam3\\sql\\SQL_Server_01\\Kiemtra\\Kiemtra\\bin\\Debug\\text.txt";
+            string s;
+            StreamReader rd = new StreamReader(fileName);
+            s = rd.ReadToEnd();
+            rd.Close();
+            return s;
+        }
+
+        private void btnRead_String_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string ctn = get_String();
+                MessageBox.Show(ctn);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Đọc file thất bại! \n" + ex.Message);
+            }
+            //SqlConnection cnn = new SqlConnection();
+            //cnn.ConnectionString = ctn;
+            //try
+            //{
+            //    cnn.Open();
+            //}
+            //catch(Exception ex)
+            //{
+            //    MessageBox.Show("Đọc file thành công!");
+            //}
         }
     }
 }

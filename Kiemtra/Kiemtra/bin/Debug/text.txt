@@ -1,0 +1,6 @@
+
+Server = SqlServer... 
+database=HOADON 
+uid=ngoc 
+pwd=06122001
+
