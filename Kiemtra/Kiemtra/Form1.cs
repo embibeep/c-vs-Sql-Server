@@ -56,6 +56,7 @@ namespace Kiemtra
             //Mở Sql Server ra, tạo 1 database tên HOADON, và user ngoc,mật khẩu 06122001 để chạy thành công.
             String connectionstring;
             SqlConnection cnn;
+            //thay đổi tên Server tùy vào từng máy, kiểm tra tên server khi mở Sql Server và nhập vào dòng Server phía dưới.
             connectionstring = "Server=P0942;Database=HOADON;Uid=ngoc;PWD=06122001";
             cnn = new SqlConnection(connectionstring);
             {
@@ -147,6 +148,7 @@ namespace Kiemtra
 
         public string get_String()
         {
+            //đường dẫn url chỉ đúng khi sử dụng tại laptop chỉ định, nếu sử dụng trên thiết bị khác, hãy đôi đường dẫn file lại.
             string fileName = @"E:\\nam3\\sql\\SQL_Server_01\\Kiemtra\\Kiemtra\\bin\\Debug\\text.txt";
             string s;
             StreamReader rd = new StreamReader(fileName);
