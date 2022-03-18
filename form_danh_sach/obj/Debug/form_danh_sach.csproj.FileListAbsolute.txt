@@ -1,0 +1,10 @@
+E:\nam3\sql\hehehe\form_danh_sach\bin\Debug\form_danh_sach.exe.config
+E:\nam3\sql\hehehe\form_danh_sach\bin\Debug\form_danh_sach.exe
+E:\nam3\sql\hehehe\form_danh_sach\bin\Debug\form_danh_sach.pdb
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.csproj.AssemblyReference.cache
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.Properties.Resources.resources
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.csproj.GenerateResource.cache
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.csproj.CoreCompileInputs.cache
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.exe
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.pdb
+E:\nam3\sql\hehehe\form_danh_sach\obj\Debug\form_danh_sach.Form_Main.resources
