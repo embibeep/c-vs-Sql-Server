@@ -1,0 +1,6 @@
+Z:\42_NguyenTrongNgoc_119001453_19CT113\form_danh_sach\bin\Debug\form_danh_sach.exe.config
+Z:\42_NguyenTrongNgoc_119001453_19CT113\form_danh_sach\obj\Debug\form_danh_sach.exe
+Z:\42_NguyenTrongNgoc_119001453_19CT113\form_danh_sach\obj\Debug\form_danh_sach.pdb
+Z:\42_NguyenTrongNgoc_119001453_19CT113\bai_kiem_tra\bin\Debug\form_danh_sach.exe.config
+Z:\42_NguyenTrongNgoc_119001453_19CT113\bai_kiem_tra\obj\Debug\form_danh_sach.exe
+Z:\42_NguyenTrongNgoc_119001453_19CT113\bai_kiem_tra\obj\Debug\form_danh_sach.pdb
