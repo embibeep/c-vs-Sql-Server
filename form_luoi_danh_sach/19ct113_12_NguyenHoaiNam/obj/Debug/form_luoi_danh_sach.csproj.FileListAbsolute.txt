@@ -1,0 +1,6 @@
+C:\Users\PM\Downloads\19ct113_12_NguyenHoaiNam\19ct113_12_NguyenHoaiNam\bin\Debug\19ct113_12_NguyenHoaiNam.exe.config
+C:\Users\PM\Downloads\19ct113_12_NguyenHoaiNam\19ct113_12_NguyenHoaiNam\obj\Debug\19ct113_12_NguyenHoaiNam.exe
+C:\Users\PM\Downloads\19ct113_12_NguyenHoaiNam\19ct113_12_NguyenHoaiNam\obj\Debug\19ct113_12_NguyenHoaiNam.pdb
+C:\Users\PM\Downloads\form_luoi_danh_sach\19ct113_12_NguyenHoaiNam\bin\Debug\19ct113_12_NguyenHoaiNam.exe.config
+C:\Users\PM\Downloads\form_luoi_danh_sach\19ct113_12_NguyenHoaiNam\obj\Debug\19ct113_12_NguyenHoaiNam.exe
+C:\Users\PM\Downloads\form_luoi_danh_sach\19ct113_12_NguyenHoaiNam\obj\Debug\19ct113_12_NguyenHoaiNam.pdb

@@ -1,0 +1,4 @@
+Server=DESKTOP-KSNP0MF\PCXUYEN
+database=HoaDon
+uid=nam
+pwd=123
