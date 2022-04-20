@@ -1,0 +1,11 @@
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\bin\Debug\Kiemtra_0420.exe.config
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\bin\Debug\Kiemtra_0420.exe
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\bin\Debug\Kiemtra_0420.pdb
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.csprojResolveAssemblyReference.cache
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.Properties.Resources.resources
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.csproj.GenerateResource.Cache
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.exe
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.pdb
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.Form_Main.resources
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.Bai1.resources
+D:\27_NguyenTrongNgoc\Kiemtra_0420\Kiemtra_0420\obj\Debug\Kiemtra_0420.Bai2.resources
